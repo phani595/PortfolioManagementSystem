@@ -1,0 +1,125 @@
+@Presentation_HostAddress = https://localhost:44360
+
+GET {{Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Presentation_HostAddress}}/api/assets
+
+###
+
+POST {{Presentation_HostAddress}}/api/assets
+Content-Type: application/json
+
+{
+  //AssetDto
+}
+
+###
+
+GET {{Presentation_HostAddress}}/api/assets/0
+
+###
+
+DELETE {{Presentation_HostAddress}}/api/assets/0
+
+###
+
+PUT {{Presentation_HostAddress}}/api/assets/0
+Content-Type: application/json
+
+{
+  //AssetDto
+}
+
+###
+
+GET {{Presentation_HostAddress}}/api/portfolio
+
+###
+
+POST {{Presentation_HostAddress}}/api/portfolio
+Content-Type: application/json
+
+{
+  //PortfolioDto
+}
+
+###
+
+GET {{Presentation_HostAddress}}/api/portfolio/0
+
+###
+
+DELETE {{Presentation_HostAddress}}/api/portfolio/0
+
+###
+
+PUT {{Presentation_HostAddress}}/api/portfolio/0
+Content-Type: application/json
+
+{
+  //PortfolioDto
+}
+
+###
+
+GET {{Presentation_HostAddress}}/api/portfolio/0/annualized-return
+
+###
+
+GET {{Presentation_HostAddress}}/api/portfolio/0/market-value
+
+###
+
+GET {{Presentation_HostAddress}}/api/portfolio/0/risk
+
+###
+
+GET {{Presentation_HostAddress}}/api/portfolio/0/roi
+
+###
+
+GET {{Presentation_HostAddress}}/api/portfolio/0/transactions?transactionType=string
+
+###
+
+GET {{Presentation_HostAddress}}/api/transaction
+
+###
+
+POST {{Presentation_HostAddress}}/api/transaction
+Content-Type: application/json
+
+{
+  //TransactionsDto
+}
+
+###
+
+GET {{Presentation_HostAddress}}/api/transaction/0
+
+###
+
+DELETE {{Presentation_HostAddress}}/api/transaction/0
+
+###
+
+PUT {{Presentation_HostAddress}}/api/transaction/0
+Content-Type: application/json
+
+{
+  //TransactionsDto
+}
+
+###
+
+POST {{Presentation_HostAddress}}/api/user/login
+Content-Type: application/json
+
+{
+  //LoginRequest
+}
+
+###

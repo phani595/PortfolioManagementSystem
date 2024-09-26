@@ -1,0 +1,550 @@
+2024-09-26 13:16:52.420 +10:00 [INF] Start installing Hangfire SQL objects...
+2024-09-26 13:16:53.694 +10:00 [INF] Hangfire SQL objects installed.
+2024-09-26 13:16:55.956 +10:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: silklaser.database.windows.net@daytest'
+2024-09-26 13:16:55.956 +10:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-09-26 13:16:55.957 +10:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-09-26 13:16:55.971 +10:00 [DBG] Execution loop BackgroundServerProcess:2d976479 has started in 7.0352 ms
+2024-09-26 13:16:56.011 +10:00 [INF] Server aulp220304:24224:08d0fb7e successfully announced in 30.1961 ms
+2024-09-26 13:16:56.016 +10:00 [DBG] Execution loop ServerHeartbeatProcess:7ec2d274 has started in 4.0186 ms
+2024-09-26 13:16:56.016 +10:00 [INF] Server aulp220304:24224:08d0fb7e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-09-26 13:16:56.029 +10:00 [DBG] Execution loop ServerWatchdog:02355e19 has started in 12.1724 ms
+2024-09-26 13:16:56.032 +10:00 [DBG] Execution loop ServerJobCancellationWatcher:9ef2578b has started in 3.2053 ms
+2024-09-26 13:16:56.059 +10:00 [DBG] Execution loop ExpirationManager:6283e63d has started in 27.4385 ms
+2024-09-26 13:16:56.063 +10:00 [DBG] Execution loop CountersAggregator:e3eaefe6 has started in 29.693 ms
+2024-09-26 13:16:56.065 +10:00 [DBG] Execution loop SqlServerHeartbeatProcess:3e32c1ad has started in 5.4904 ms
+2024-09-26 13:16:56.066 +10:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-09-26 13:16:56.066 +10:00 [DBG] Aggregating records in 'Counter' table...
+2024-09-26 13:16:56.071 +10:00 [DBG] Execution loop Worker:2d826256 has started in 7.796 ms
+2024-09-26 13:16:56.073 +10:00 [DBG] Execution loop Worker:5de4fc76 has started in 9.9883 ms
+2024-09-26 13:16:56.076 +10:00 [DBG] Execution loop Worker:98bce096 has started in 12.99 ms
+2024-09-26 13:16:56.079 +10:00 [DBG] Execution loop Worker:77704cfc has started in 15.9881 ms
+2024-09-26 13:16:56.082 +10:00 [DBG] Execution loop Worker:06650ac5 has started in 19.4044 ms
+2024-09-26 13:16:56.085 +10:00 [DBG] Execution loop Worker:f0554be2 has started in 22.3659 ms
+2024-09-26 13:16:56.089 +10:00 [INF] 2 servers were removed due to timeout
+2024-09-26 13:16:56.092 +10:00 [DBG] Execution loop Worker:b80a4b22 has started in 29.5298 ms
+2024-09-26 13:16:56.097 +10:00 [DBG] Execution loop Worker:bfaffb23 has started in 34.4785 ms
+2024-09-26 13:16:56.100 +10:00 [DBG] Execution loop Worker:fc17aed4 has started in 37.3571 ms
+2024-09-26 13:16:56.102 +10:00 [DBG] Execution loop Worker:7a26975b has started in 39.8378 ms
+2024-09-26 13:16:56.105 +10:00 [DBG] Execution loop Worker:98dc560b has started in 42.5103 ms
+2024-09-26 13:16:56.109 +10:00 [DBG] Execution loop Worker:2a9ba3a1 has started in 45.9422 ms
+2024-09-26 13:16:56.110 +10:00 [DBG] Execution loop Worker:cd07a752 has started in 47.7977 ms
+2024-09-26 13:16:56.115 +10:00 [DBG] Execution loop Worker:a97440ec has started in 51.1954 ms
+2024-09-26 13:16:56.117 +10:00 [DBG] Execution loop Worker:30ff7524 has started in 54.1753 ms
+2024-09-26 13:16:56.120 +10:00 [DBG] Execution loop Worker:1ba54bff has started in 57.1446 ms
+2024-09-26 13:16:56.124 +10:00 [DBG] Execution loop Worker:55ece42d has started in 60.5146 ms
+2024-09-26 13:16:56.126 +10:00 [DBG] Execution loop Worker:191bb1d5 has started in 63.7535 ms
+2024-09-26 13:16:56.129 +10:00 [DBG] Execution loop Worker:e14f15a5 has started in 65.7482 ms
+2024-09-26 13:16:56.131 +10:00 [DBG] Execution loop Worker:87c9f8f4 has started in 68.707 ms
+2024-09-26 13:16:56.134 +10:00 [INF] Server aulp220304:24224:08d0fb7e all the dispatchers started
+2024-09-26 13:16:56.135 +10:00 [DBG] Execution loop DelayedJobScheduler:cbd22666 has started in 7.8771 ms
+2024-09-26 13:16:56.138 +10:00 [DBG] Execution loop RecurringJobScheduler:86297913 has started in 6.1846 ms
+2024-09-26 13:16:56.158 +10:00 [DBG] Removing outdated records from the 'Job' table...
+2024-09-26 13:16:56.276 +10:00 [DBG] Removing outdated records from the 'List' table...
+2024-09-26 13:16:56.340 +10:00 [DBG] Removing outdated records from the 'Set' table...
+2024-09-26 13:16:56.407 +10:00 [DBG] Removing outdated records from the 'Hash' table...
+2024-09-26 13:16:56.999 +10:00 [DBG] 1 recurring job(s) processed by scheduler.
+2024-09-26 13:16:57.310 +10:00 [INF] Starting asset price update.
+2024-09-26 13:16:57.609 +10:00 [INF] Asset prices updated successfully.
+2024-09-26 13:17:26.053 +10:00 [DBG] Server aulp220304:24224:08d0fb7e heartbeat successfully sent
+2024-09-26 13:17:56.094 +10:00 [DBG] Server aulp220304:24224:08d0fb7e heartbeat successfully sent
+2024-09-26 13:18:26.117 +10:00 [DBG] Server aulp220304:24224:08d0fb7e heartbeat successfully sent
+2024-09-26 13:18:56.160 +10:00 [DBG] Server aulp220304:24224:08d0fb7e heartbeat successfully sent
+2024-09-26 13:19:26.191 +10:00 [DBG] Server aulp220304:24224:08d0fb7e heartbeat successfully sent
+2024-09-26 13:19:47.529 +10:00 [INF] Processing request with Correlation ID: ["70593bae-4c6a-4d30-8bcd-bda8ef0465f6"]
+2024-09-26 13:19:56.224 +10:00 [DBG] Server aulp220304:24224:08d0fb7e heartbeat successfully sent
+2024-09-26 13:20:19.431 +10:00 [INF] Processing request with Correlation ID: ["20121740-f68d-4c05-acee-ad5d7b64ebd2"]
+2024-09-26 13:20:26.265 +10:00 [DBG] Server aulp220304:24224:08d0fb7e heartbeat successfully sent
+2024-09-26 13:20:56.308 +10:00 [DBG] Server aulp220304:24224:08d0fb7e heartbeat successfully sent
+2024-09-26 13:20:59.767 +10:00 [INF] Processing request with Correlation ID: ["02f985d1-0b6f-48f4-a009-5858252df01f"]
+2024-09-26 13:21:26.343 +10:00 [DBG] Server aulp220304:24224:08d0fb7e heartbeat successfully sent
+2024-09-26 13:21:27.680 +10:00 [INF] Processing request with Correlation ID: ["34dc2246-3d4d-4429-a738-d0803c84b2f4"]
+2024-09-26 13:21:49.803 +10:00 [INF] Start installing Hangfire SQL objects...
+2024-09-26 13:21:50.439 +10:00 [INF] Hangfire SQL objects installed.
+2024-09-26 13:21:51.950 +10:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: silklaser.database.windows.net@daytest'
+2024-09-26 13:21:51.950 +10:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-09-26 13:21:51.950 +10:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-09-26 13:21:51.969 +10:00 [DBG] Execution loop BackgroundServerProcess:463839b5 has started in 6.4122 ms
+2024-09-26 13:21:52.005 +10:00 [INF] Server aulp220304:18700:c53efac5 successfully announced in 32.7829 ms
+2024-09-26 13:21:52.010 +10:00 [DBG] Execution loop ServerHeartbeatProcess:0e183c9e has started in 3.9955 ms
+2024-09-26 13:21:52.010 +10:00 [INF] Server aulp220304:18700:c53efac5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-09-26 13:21:52.013 +10:00 [DBG] Execution loop ServerWatchdog:bd420222 has started in 2.6214 ms
+2024-09-26 13:21:52.016 +10:00 [DBG] Execution loop ServerJobCancellationWatcher:415e1527 has started in 5.051 ms
+2024-09-26 13:21:52.020 +10:00 [DBG] Execution loop ExpirationManager:574a9773 has started in 5.969 ms
+2024-09-26 13:21:52.022 +10:00 [DBG] Execution loop CountersAggregator:a5be9c11 has started in 4.5555 ms
+2024-09-26 13:21:52.023 +10:00 [DBG] Aggregating records in 'Counter' table...
+2024-09-26 13:21:52.025 +10:00 [DBG] Execution loop SqlServerHeartbeatProcess:7a31f97c has started in 5.4013 ms
+2024-09-26 13:21:52.025 +10:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-09-26 13:21:52.027 +10:00 [DBG] Execution loop Worker:30ceabe4 has started in 4.9268 ms
+2024-09-26 13:21:52.029 +10:00 [DBG] Execution loop Worker:64995801 has started in 7.4061 ms
+2024-09-26 13:21:52.032 +10:00 [DBG] Execution loop Worker:deacb5bd has started in 10.1766 ms
+2024-09-26 13:21:52.035 +10:00 [DBG] Execution loop Worker:3a456a96 has started in 12.9088 ms
+2024-09-26 13:21:52.038 +10:00 [DBG] Execution loop Worker:83c7fb9e has started in 15.5706 ms
+2024-09-26 13:21:52.040 +10:00 [DBG] Execution loop Worker:d9028c65 has started in 18.3933 ms
+2024-09-26 13:21:52.043 +10:00 [DBG] Execution loop Worker:bbe8eef1 has started in 21.0673 ms
+2024-09-26 13:21:52.046 +10:00 [DBG] Execution loop Worker:d921df19 has started in 23.9658 ms
+2024-09-26 13:21:52.049 +10:00 [DBG] Execution loop Worker:5f4a2a66 has started in 26.8755 ms
+2024-09-26 13:21:52.052 +10:00 [DBG] Execution loop Worker:124c0db9 has started in 29.8837 ms
+2024-09-26 13:21:52.055 +10:00 [DBG] Execution loop Worker:6f50e1c7 has started in 32.6725 ms
+2024-09-26 13:21:52.057 +10:00 [DBG] Execution loop Worker:cead0415 has started in 35.3863 ms
+2024-09-26 13:21:52.060 +10:00 [DBG] Execution loop Worker:cf187bb2 has started in 37.9084 ms
+2024-09-26 13:21:52.063 +10:00 [DBG] Execution loop Worker:ca8959eb has started in 40.8197 ms
+2024-09-26 13:21:52.065 +10:00 [DBG] Execution loop Worker:a12910bf has started in 43.3498 ms
+2024-09-26 13:21:52.068 +10:00 [DBG] Execution loop Worker:699aaef9 has started in 46.0541 ms
+2024-09-26 13:21:52.071 +10:00 [DBG] Execution loop Worker:ad441da7 has started in 48.5199 ms
+2024-09-26 13:21:52.073 +10:00 [DBG] Execution loop Worker:25b6216d has started in 51.1781 ms
+2024-09-26 13:21:52.076 +10:00 [DBG] Execution loop Worker:a2b246a1 has started in 53.8266 ms
+2024-09-26 13:21:52.079 +10:00 [DBG] Execution loop Worker:dcd0b94a has started in 56.694 ms
+2024-09-26 13:21:52.081 +10:00 [INF] Server aulp220304:18700:c53efac5 all the dispatchers started
+2024-09-26 13:21:52.082 +10:00 [DBG] Execution loop DelayedJobScheduler:d8f533e5 has started in 5.6501 ms
+2024-09-26 13:21:52.085 +10:00 [DBG] Execution loop RecurringJobScheduler:6d79917b has started in 5.8123 ms
+2024-09-26 13:21:52.111 +10:00 [DBG] Removing outdated records from the 'Job' table...
+2024-09-26 13:21:52.187 +10:00 [DBG] Removing outdated records from the 'List' table...
+2024-09-26 13:21:52.261 +10:00 [DBG] Removing outdated records from the 'Set' table...
+2024-09-26 13:21:52.441 +10:00 [DBG] Removing outdated records from the 'Hash' table...
+2024-09-26 13:22:01.420 +10:00 [INF] Processing request with Correlation ID: ["33df3a0f-3058-4f48-8d30-ea9147d25a34"]
+2024-09-26 13:22:22.053 +10:00 [DBG] Server aulp220304:18700:c53efac5 heartbeat successfully sent
+2024-09-26 13:22:52.083 +10:00 [DBG] Server aulp220304:18700:c53efac5 heartbeat successfully sent
+2024-09-26 13:23:06.275 +10:00 [INF] Processing request with Correlation ID: ["54dc6a20-fdab-4789-b606-5a11e78f6d97"]
+2024-09-26 13:23:22.120 +10:00 [DBG] Server aulp220304:18700:c53efac5 heartbeat successfully sent
+2024-09-26 13:23:23.899 +10:00 [INF] Processing request with Correlation ID: ["99d69dc7-b35d-4e12-a35b-6b6bfdf22a07"]
+2024-09-26 13:23:52.155 +10:00 [DBG] Server aulp220304:18700:c53efac5 heartbeat successfully sent
+2024-09-26 13:24:22.180 +10:00 [DBG] Server aulp220304:18700:c53efac5 heartbeat successfully sent
+2024-09-26 13:24:38.986 +10:00 [INF] Processing request with Correlation ID: ["2e3d6dd0-dd33-4e6e-8dc7-31b3b08dab9d"]
+2024-09-26 13:26:12.178 +10:00 [INF] Start installing Hangfire SQL objects...
+2024-09-26 13:26:12.778 +10:00 [INF] Hangfire SQL objects installed.
+2024-09-26 13:26:14.472 +10:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: silklaser.database.windows.net@daytest'
+2024-09-26 13:26:14.472 +10:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-09-26 13:26:14.473 +10:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-09-26 13:26:14.494 +10:00 [DBG] Execution loop BackgroundServerProcess:98359b1b has started in 9.0289 ms
+2024-09-26 13:26:14.534 +10:00 [INF] Server aulp220304:31100:e943146f successfully announced in 36.3428 ms
+2024-09-26 13:26:14.542 +10:00 [DBG] Execution loop ServerHeartbeatProcess:b608f3f4 has started in 7.581 ms
+2024-09-26 13:26:14.542 +10:00 [INF] Server aulp220304:31100:e943146f is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-09-26 13:26:14.546 +10:00 [DBG] Execution loop ServerWatchdog:064926d2 has started in 3.1721 ms
+2024-09-26 13:26:14.548 +10:00 [DBG] Execution loop ServerJobCancellationWatcher:e02fa5b8 has started in 5.1247 ms
+2024-09-26 13:26:14.551 +10:00 [DBG] Execution loop ExpirationManager:4731909f has started in 4.3719 ms
+2024-09-26 13:26:14.555 +10:00 [DBG] Execution loop CountersAggregator:19a64eac has started in 5.1444 ms
+2024-09-26 13:26:14.558 +10:00 [DBG] Execution loop SqlServerHeartbeatProcess:284b0d95 has started in 7.0998 ms
+2024-09-26 13:26:14.559 +10:00 [DBG] Aggregating records in 'Counter' table...
+2024-09-26 13:26:14.559 +10:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-09-26 13:26:14.562 +10:00 [DBG] Execution loop Worker:9093d62c has started in 6.1405 ms
+2024-09-26 13:26:14.565 +10:00 [DBG] Execution loop Worker:8bab6a73 has started in 8.7692 ms
+2024-09-26 13:26:14.567 +10:00 [DBG] Execution loop Worker:d7f42f1f has started in 11.108 ms
+2024-09-26 13:26:14.570 +10:00 [DBG] Execution loop Worker:78a0db95 has started in 13.5581 ms
+2024-09-26 13:26:14.573 +10:00 [DBG] Execution loop Worker:c759f971 has started in 16.8662 ms
+2024-09-26 13:26:14.608 +10:00 [DBG] Execution loop Worker:9682172e has started in 51.7381 ms
+2024-09-26 13:26:14.608 +10:00 [DBG] Execution loop Worker:9cbee15d has started in 51.9529 ms
+2024-09-26 13:26:14.640 +10:00 [DBG] Execution loop Worker:d7530d57 has started in 83.302 ms
+2024-09-26 13:26:14.640 +10:00 [DBG] Execution loop Worker:94bc666a has started in 83.3999 ms
+2024-09-26 13:26:14.649 +10:00 [DBG] Execution loop Worker:c50328b0 has started in 92.4768 ms
+2024-09-26 13:26:14.661 +10:00 [DBG] Execution loop Worker:7baf11a0 has started in 105.0963 ms
+2024-09-26 13:26:14.667 +10:00 [DBG] Execution loop Worker:f8e90d30 has started in 110.4319 ms
+2024-09-26 13:26:14.674 +10:00 [DBG] Execution loop Worker:536c3e41 has started in 117.9245 ms
+2024-09-26 13:26:14.682 +10:00 [DBG] Execution loop Worker:3db74be4 has started in 125.919 ms
+2024-09-26 13:26:14.688 +10:00 [DBG] Execution loop Worker:118fa815 has started in 131.9333 ms
+2024-09-26 13:26:14.694 +10:00 [DBG] Execution loop Worker:d678e6e0 has started in 138.0497 ms
+2024-09-26 13:26:14.700 +10:00 [DBG] Execution loop Worker:bdddd5f8 has started in 143.7927 ms
+2024-09-26 13:26:14.705 +10:00 [DBG] Execution loop Worker:ad972d25 has started in 148.9124 ms
+2024-09-26 13:26:14.710 +10:00 [DBG] Execution loop Worker:cef86fbb has started in 153.3705 ms
+2024-09-26 13:26:14.713 +10:00 [DBG] Execution loop Worker:0460dcc0 has started in 156.4944 ms
+2024-09-26 13:26:14.717 +10:00 [DBG] Execution loop DelayedJobScheduler:20af144c has started in 7.1046 ms
+2024-09-26 13:26:14.718 +10:00 [INF] Server aulp220304:31100:e943146f all the dispatchers started
+2024-09-26 13:26:14.721 +10:00 [DBG] Removing outdated records from the 'Job' table...
+2024-09-26 13:26:14.722 +10:00 [DBG] Execution loop RecurringJobScheduler:830896f2 has started in 8.7395 ms
+2024-09-26 13:26:14.803 +10:00 [DBG] Removing outdated records from the 'List' table...
+2024-09-26 13:26:14.867 +10:00 [DBG] Removing outdated records from the 'Set' table...
+2024-09-26 13:26:14.928 +10:00 [DBG] Removing outdated records from the 'Hash' table...
+2024-09-26 13:26:34.632 +10:00 [INF] Processing request with Correlation ID: ["ba75d80d-1253-47ca-acb3-1b08177357f9"]
+2024-09-26 13:26:44.581 +10:00 [DBG] Server aulp220304:31100:e943146f heartbeat successfully sent
+2024-09-26 13:27:14.615 +10:00 [DBG] Server aulp220304:31100:e943146f heartbeat successfully sent
+2024-09-26 13:27:44.651 +10:00 [DBG] Server aulp220304:31100:e943146f heartbeat successfully sent
+2024-09-26 13:28:14.688 +10:00 [DBG] Server aulp220304:31100:e943146f heartbeat successfully sent
+2024-09-26 13:28:44.717 +10:00 [DBG] Server aulp220304:31100:e943146f heartbeat successfully sent
+2024-09-26 13:29:14.746 +10:00 [DBG] Server aulp220304:31100:e943146f heartbeat successfully sent
+2024-09-26 13:29:44.781 +10:00 [DBG] Server aulp220304:31100:e943146f heartbeat successfully sent
+2024-09-26 13:30:53.193 +10:00 [INF] Start installing Hangfire SQL objects...
+2024-09-26 13:30:53.745 +10:00 [INF] Hangfire SQL objects installed.
+2024-09-26 13:30:55.102 +10:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: silklaser.database.windows.net@daytest'
+2024-09-26 13:30:55.102 +10:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-09-26 13:30:55.102 +10:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-09-26 13:30:55.124 +10:00 [DBG] Execution loop BackgroundServerProcess:2172e6f8 has started in 6.4703 ms
+2024-09-26 13:30:55.159 +10:00 [INF] Server aulp220304:17772:9a6c0a47 successfully announced in 32.5882 ms
+2024-09-26 13:30:55.168 +10:00 [DBG] Execution loop ServerHeartbeatProcess:31173765 has started in 3.7534 ms
+2024-09-26 13:30:55.169 +10:00 [INF] Server aulp220304:17772:9a6c0a47 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-09-26 13:30:55.174 +10:00 [DBG] Execution loop ServerWatchdog:8d59b77a has started in 5.2923 ms
+2024-09-26 13:30:55.176 +10:00 [DBG] Execution loop ServerJobCancellationWatcher:8796a516 has started in 4.4618 ms
+2024-09-26 13:30:55.179 +10:00 [DBG] Execution loop ExpirationManager:3857ecfc has started in 3.9812 ms
+2024-09-26 13:30:55.181 +10:00 [DBG] Execution loop CountersAggregator:a7b64689 has started in 4.5068 ms
+2024-09-26 13:30:55.184 +10:00 [DBG] Execution loop SqlServerHeartbeatProcess:d721441f has started in 4.4739 ms
+2024-09-26 13:30:55.184 +10:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-09-26 13:30:55.184 +10:00 [DBG] Aggregating records in 'Counter' table...
+2024-09-26 13:30:55.187 +10:00 [DBG] Execution loop Worker:9ad4646b has started in 5.7367 ms
+2024-09-26 13:30:55.189 +10:00 [DBG] Execution loop Worker:7b1e037f has started in 8.0038 ms
+2024-09-26 13:30:55.192 +10:00 [DBG] Execution loop Worker:9a617cf4 has started in 10.3421 ms
+2024-09-26 13:30:55.194 +10:00 [DBG] Execution loop Worker:6069130c has started in 12.8721 ms
+2024-09-26 13:30:55.196 +10:00 [DBG] Execution loop Worker:6285bdb0 has started in 14.9919 ms
+2024-09-26 13:30:55.199 +10:00 [DBG] Execution loop Worker:50e8525d has started in 17.4869 ms
+2024-09-26 13:30:55.202 +10:00 [DBG] Execution loop Worker:9ce036e7 has started in 20.3319 ms
+2024-09-26 13:30:55.206 +10:00 [DBG] Execution loop Worker:a578444c has started in 24.6568 ms
+2024-09-26 13:30:55.209 +10:00 [DBG] Execution loop Worker:25f0cd6d has started in 27.2759 ms
+2024-09-26 13:30:55.209 +10:00 [INF] 2 servers were removed due to timeout
+2024-09-26 13:30:55.211 +10:00 [DBG] Execution loop Worker:27aa095b has started in 30.0058 ms
+2024-09-26 13:30:55.214 +10:00 [DBG] Execution loop Worker:3b16e1f4 has started in 32.5511 ms
+2024-09-26 13:30:55.217 +10:00 [DBG] Execution loop Worker:6763650f has started in 35.1371 ms
+2024-09-26 13:30:55.219 +10:00 [DBG] Execution loop Worker:ff8eee5c has started in 37.7502 ms
+2024-09-26 13:30:55.222 +10:00 [DBG] Execution loop Worker:2cca38a4 has started in 40.1392 ms
+2024-09-26 13:30:55.225 +10:00 [DBG] Execution loop Worker:aa34d184 has started in 43.1538 ms
+2024-09-26 13:30:55.226 +10:00 [DBG] Execution loop Worker:9d1d79ac has started in 44.68 ms
+2024-09-26 13:30:55.229 +10:00 [DBG] Execution loop Worker:a7f07675 has started in 47.9269 ms
+2024-09-26 13:30:55.232 +10:00 [DBG] Execution loop Worker:29b1d574 has started in 50.7581 ms
+2024-09-26 13:30:55.235 +10:00 [DBG] Execution loop Worker:98fde845 has started in 53.7558 ms
+2024-09-26 13:30:55.238 +10:00 [DBG] Execution loop Worker:bb7b8116 has started in 56.3845 ms
+2024-09-26 13:30:55.241 +10:00 [DBG] Execution loop DelayedJobScheduler:a1f2823a has started in 5.4271 ms
+2024-09-26 13:30:55.240 +10:00 [INF] Server aulp220304:17772:9a6c0a47 all the dispatchers started
+2024-09-26 13:30:55.243 +10:00 [DBG] Execution loop RecurringJobScheduler:4160ac70 has started in 5.6431 ms
+2024-09-26 13:30:55.275 +10:00 [DBG] Removing outdated records from the 'Job' table...
+2024-09-26 13:30:55.355 +10:00 [DBG] Removing outdated records from the 'List' table...
+2024-09-26 13:30:55.412 +10:00 [DBG] Removing outdated records from the 'Set' table...
+2024-09-26 13:30:55.572 +10:00 [DBG] Removing outdated records from the 'Hash' table...
+2024-09-26 13:31:23.749 +10:00 [INF] Processing request with Correlation ID: ["941dd656-9ba3-4230-94a9-4fe79c3b0fbf"]
+2024-09-26 13:31:28.009 +10:00 [DBG] Server aulp220304:17772:9a6c0a47 heartbeat successfully sent
+2024-09-26 13:31:58.046 +10:00 [DBG] Server aulp220304:17772:9a6c0a47 heartbeat successfully sent
+2024-09-26 13:32:28.077 +10:00 [DBG] Server aulp220304:17772:9a6c0a47 heartbeat successfully sent
+2024-09-26 13:32:55.800 +10:00 [INF] Processing request with Correlation ID: ["d539a57f-0676-4a88-85a0-7cfed1e1d446"]
+2024-09-26 13:32:58.111 +10:00 [DBG] Server aulp220304:17772:9a6c0a47 heartbeat successfully sent
+2024-09-26 13:33:28.145 +10:00 [DBG] Server aulp220304:17772:9a6c0a47 heartbeat successfully sent
+2024-09-26 13:33:32.465 +10:00 [INF] Processing request with Correlation ID: ["c871ea22-3b71-4f0e-a98f-d542a5dbd0e2"]
+2024-09-26 13:33:47.247 +10:00 [ERR] An unhandled exception occurred
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Presentation.Middlewares.ErrorHandlingMiddleware.Invoke(HttpContext context) in C:\Thotas\Documents\Learning\Viswa\PortfolioManagementSystem\Presentation\ErrorHandlingMiddleware.cs:line 15
+2024-09-26 13:33:55.463 +10:00 [INF] Processing request with Correlation ID: ["f0c51efd-835f-4f79-8b97-acf5a1ba4b95"]
+2024-09-26 13:33:58.469 +10:00 [DBG] Server aulp220304:17772:9a6c0a47 heartbeat successfully sent
+2024-09-26 13:34:28.497 +10:00 [DBG] Server aulp220304:17772:9a6c0a47 heartbeat successfully sent
+2024-09-26 14:14:30.885 +10:00 [INF] Start installing Hangfire SQL objects...
+2024-09-26 14:14:32.022 +10:00 [INF] Hangfire SQL objects installed.
+2024-09-26 14:14:34.147 +10:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: silklaser.database.windows.net@daytest'
+2024-09-26 14:14:34.148 +10:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-09-26 14:14:34.148 +10:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-09-26 14:14:34.159 +10:00 [DBG] Execution loop BackgroundServerProcess:1476b14c has started in 5.0131 ms
+2024-09-26 14:14:34.197 +10:00 [INF] Server aulp220304:17236:d8087593 successfully announced in 28.3812 ms
+2024-09-26 14:14:34.202 +10:00 [DBG] Execution loop ServerHeartbeatProcess:fb58a6de has started in 3.6463 ms
+2024-09-26 14:14:34.202 +10:00 [INF] Server aulp220304:17236:d8087593 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-09-26 14:14:34.205 +10:00 [DBG] Execution loop ServerWatchdog:b22585fb has started in 2.8297 ms
+2024-09-26 14:14:34.207 +10:00 [DBG] Execution loop ServerJobCancellationWatcher:fd1e1f0b has started in 4.4438 ms
+2024-09-26 14:14:34.210 +10:00 [DBG] Execution loop ExpirationManager:18a53125 has started in 3.5664 ms
+2024-09-26 14:14:34.213 +10:00 [DBG] Execution loop CountersAggregator:9b306c95 has started in 4.6283 ms
+2024-09-26 14:14:34.214 +10:00 [DBG] Aggregating records in 'Counter' table...
+2024-09-26 14:14:34.214 +10:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-09-26 14:14:34.217 +10:00 [DBG] Execution loop SqlServerHeartbeatProcess:19895a20 has started in 5.795 ms
+2024-09-26 14:14:34.219 +10:00 [DBG] Execution loop Worker:20daaf52 has started in 4.7908 ms
+2024-09-26 14:14:34.222 +10:00 [DBG] Execution loop Worker:0b9a72cd has started in 7.2064 ms
+2024-09-26 14:14:34.229 +10:00 [DBG] Execution loop Worker:de71c048 has started in 14.0731 ms
+2024-09-26 14:14:34.232 +10:00 [INF] 2 servers were removed due to timeout
+2024-09-26 14:14:34.232 +10:00 [DBG] Execution loop Worker:9624cb64 has started in 16.9538 ms
+2024-09-26 14:14:34.234 +10:00 [DBG] Execution loop Worker:8c96c2d1 has started in 19.6201 ms
+2024-09-26 14:14:34.237 +10:00 [DBG] Execution loop Worker:d934af14 has started in 22.3949 ms
+2024-09-26 14:14:34.240 +10:00 [DBG] Execution loop Worker:e3c99f95 has started in 25.3514 ms
+2024-09-26 14:14:34.242 +10:00 [DBG] Execution loop Worker:59ff2ef7 has started in 27.8325 ms
+2024-09-26 14:14:34.245 +10:00 [DBG] Execution loop Worker:6bde538c has started in 30.4067 ms
+2024-09-26 14:14:34.247 +10:00 [DBG] Execution loop Worker:ad023a9c has started in 32.8127 ms
+2024-09-26 14:14:34.250 +10:00 [DBG] Execution loop Worker:51fdbb24 has started in 35.2826 ms
+2024-09-26 14:14:34.253 +10:00 [DBG] Execution loop Worker:c17ca2c3 has started in 38.2903 ms
+2024-09-26 14:14:34.257 +10:00 [DBG] Execution loop Worker:15cecc38 has started in 42.5933 ms
+2024-09-26 14:14:34.260 +10:00 [DBG] Execution loop Worker:cc23cca0 has started in 45.1927 ms
+2024-09-26 14:14:34.261 +10:00 [DBG] Execution loop Worker:40c91c14 has started in 46.6035 ms
+2024-09-26 14:14:34.264 +10:00 [DBG] Execution loop Worker:fadc7595 has started in 49.4757 ms
+2024-09-26 14:14:34.266 +10:00 [DBG] Execution loop Worker:a9e7e84f has started in 51.1568 ms
+2024-09-26 14:14:34.269 +10:00 [DBG] Execution loop Worker:85111e58 has started in 53.9322 ms
+2024-09-26 14:14:34.271 +10:00 [DBG] Execution loop Worker:0b564d12 has started in 56.633 ms
+2024-09-26 14:14:34.274 +10:00 [DBG] Execution loop Worker:291dade7 has started in 59.2151 ms
+2024-09-26 14:14:34.276 +10:00 [INF] Server aulp220304:17236:d8087593 all the dispatchers started
+2024-09-26 14:14:34.276 +10:00 [DBG] Execution loop DelayedJobScheduler:d9f71dcb has started in 5.164 ms
+2024-09-26 14:14:34.279 +10:00 [DBG] Execution loop RecurringJobScheduler:2a2300db has started in 5.0281 ms
+2024-09-26 14:14:34.290 +10:00 [DBG] Removing outdated records from the 'Job' table...
+2024-09-26 14:14:34.381 +10:00 [DBG] Removing outdated records from the 'List' table...
+2024-09-26 14:14:34.445 +10:00 [DBG] Removing outdated records from the 'Set' table...
+2024-09-26 14:14:34.514 +10:00 [DBG] Removing outdated records from the 'Hash' table...
+2024-09-26 14:14:35.075 +10:00 [DBG] 1 recurring job(s) processed by scheduler.
+2024-09-26 14:14:35.402 +10:00 [INF] Starting asset price update.
+2024-09-26 14:14:35.760 +10:00 [INF] Asset prices updated successfully.
+2024-09-26 14:14:42.417 +10:00 [INF] Processing request with Correlation ID: ["c525a8e3-f725-4b8d-8120-4beabad20eb1"]
+2024-09-26 14:14:42.655 +10:00 [INF] Getting total value for portfolio ID: 1
+2024-09-26 14:14:53.526 +10:00 [INF] Processing request with Correlation ID: ["5520ac29-e393-4a6e-b4d9-77ea509bb5c4"]
+2024-09-26 14:14:53.529 +10:00 [INF] Getting total value for portfolio ID: 2
+2024-09-26 14:15:04.243 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 14:15:34.267 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 14:15:42.310 +10:00 [INF] Processing request with Correlation ID: ["81b11862-7a8d-40f0-8843-4546f750f838"]
+2024-09-26 14:15:42.320 +10:00 [INF] Getting total value for portfolio ID: 1
+2024-09-26 14:15:50.347 +10:00 [INF] Processing request with Correlation ID: ["8b693e84-3602-425a-b84c-56beebdfb563"]
+2024-09-26 14:15:50.351 +10:00 [INF] Getting total value for portfolio ID: 1
+2024-09-26 14:15:57.627 +10:00 [INF] Processing request with Correlation ID: ["b8e7fc7f-7a82-4225-a300-b3f50bb6fbfc"]
+2024-09-26 14:15:57.630 +10:00 [INF] Getting total value for portfolio ID: 1
+2024-09-26 14:16:04.306 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 14:16:05.413 +10:00 [INF] Processing request with Correlation ID: ["d84930e0-0b44-4f12-849e-b7322a8285d3"]
+2024-09-26 14:16:05.417 +10:00 [INF] Getting total value for portfolio ID: 1
+2024-09-26 14:16:14.657 +10:00 [INF] Processing request with Correlation ID: ["24462b65-6372-412b-9083-4d39929d6a15"]
+2024-09-26 14:16:22.819 +10:00 [INF] Processing request with Correlation ID: ["b8427464-20ab-4710-8b96-97db02e48686"]
+2024-09-26 14:16:35.287 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 14:17:06.195 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 14:17:36.225 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 14:18:06.259 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 14:18:36.295 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 14:19:06.326 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 14:19:34.381 +10:00 [DBG] Aggregating records in 'Counter' table...
+2024-09-26 14:19:36.368 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 14:20:06.407 +10:00 [DBG] Server aulp220304:17236:d8087593 heartbeat successfully sent
+2024-09-26 15:22:03.905 +10:00 [INF] Start installing Hangfire SQL objects...
+2024-09-26 15:22:04.999 +10:00 [INF] Hangfire SQL objects installed.
+2024-09-26 15:22:07.175 +10:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: silklaser.database.windows.net@daytest'
+2024-09-26 15:22:07.175 +10:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-09-26 15:22:07.175 +10:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-09-26 15:22:07.186 +10:00 [DBG] Execution loop BackgroundServerProcess:b423b18f has started in 5.4189 ms
+2024-09-26 15:22:07.227 +10:00 [INF] Server aulp220304:29836:1e0bfb99 successfully announced in 30.8658 ms
+2024-09-26 15:22:07.259 +10:00 [DBG] Execution loop ServerHeartbeatProcess:f7866bfe has started in 30.6266 ms
+2024-09-26 15:22:07.260 +10:00 [INF] Server aulp220304:29836:1e0bfb99 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-09-26 15:22:07.266 +10:00 [DBG] Execution loop ServerWatchdog:3917cece has started in 5.3497 ms
+2024-09-26 15:22:07.268 +10:00 [DBG] Execution loop ServerJobCancellationWatcher:1a813ad5 has started in 4.6535 ms
+2024-09-26 15:22:07.271 +10:00 [DBG] Execution loop ExpirationManager:37e2a891 has started in 4.2526 ms
+2024-09-26 15:22:07.273 +10:00 [DBG] Execution loop CountersAggregator:e891ab92 has started in 4.6522 ms
+2024-09-26 15:22:07.275 +10:00 [DBG] Execution loop SqlServerHeartbeatProcess:e654fd2c has started in 4.1969 ms
+2024-09-26 15:22:07.276 +10:00 [DBG] Aggregating records in 'Counter' table...
+2024-09-26 15:22:07.276 +10:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-09-26 15:22:07.278 +10:00 [DBG] Execution loop Worker:52ad078d has started in 5.5215 ms
+2024-09-26 15:22:07.282 +10:00 [DBG] Execution loop Worker:f18ef06b has started in 8.4447 ms
+2024-09-26 15:22:07.284 +10:00 [DBG] Execution loop Worker:a83d30b2 has started in 10.8311 ms
+2024-09-26 15:22:07.286 +10:00 [DBG] Execution loop Worker:b62b83e0 has started in 13.3382 ms
+2024-09-26 15:22:07.289 +10:00 [DBG] Execution loop Worker:01b24477 has started in 16.4008 ms
+2024-09-26 15:22:07.291 +10:00 [DBG] Execution loop Worker:a171b334 has started in 17.9664 ms
+2024-09-26 15:22:07.293 +10:00 [DBG] Execution loop Worker:4c8d33c7 has started in 20.4433 ms
+2024-09-26 15:22:07.296 +10:00 [DBG] Execution loop Worker:13f95006 has started in 22.8601 ms
+2024-09-26 15:22:07.298 +10:00 [DBG] Execution loop Worker:b4987af0 has started in 25.3226 ms
+2024-09-26 15:22:07.300 +10:00 [DBG] Execution loop Worker:7babfbfc has started in 27.5567 ms
+2024-09-26 15:22:07.305 +10:00 [INF] 1 servers were removed due to timeout
+2024-09-26 15:22:07.304 +10:00 [DBG] Execution loop Worker:47221ca0 has started in 30.5808 ms
+2024-09-26 15:22:07.309 +10:00 [DBG] Execution loop Worker:7356a941 has started in 36.2643 ms
+2024-09-26 15:22:07.311 +10:00 [DBG] Execution loop Worker:52a768ee has started in 37.8575 ms
+2024-09-26 15:22:07.313 +10:00 [DBG] Execution loop Worker:dbcbf99f has started in 40.1893 ms
+2024-09-26 15:22:07.316 +10:00 [DBG] Execution loop Worker:ce3b3d10 has started in 43.0157 ms
+2024-09-26 15:22:07.319 +10:00 [DBG] Execution loop Worker:b700c5e4 has started in 45.6362 ms
+2024-09-26 15:22:07.322 +10:00 [DBG] Execution loop Worker:81c6869d has started in 48.9509 ms
+2024-09-26 15:22:07.324 +10:00 [DBG] Execution loop Worker:a7b65543 has started in 51.0792 ms
+2024-09-26 15:22:07.327 +10:00 [DBG] Execution loop Worker:2963e968 has started in 54.0437 ms
+2024-09-26 15:22:07.330 +10:00 [DBG] Execution loop Worker:aa4492f5 has started in 56.9361 ms
+2024-09-26 15:22:07.333 +10:00 [DBG] Execution loop DelayedJobScheduler:b454b55a has started in 6.0796 ms
+2024-09-26 15:22:07.333 +10:00 [INF] Server aulp220304:29836:1e0bfb99 all the dispatchers started
+2024-09-26 15:22:07.336 +10:00 [DBG] Execution loop RecurringJobScheduler:851cbd36 has started in 5.6144 ms
+2024-09-26 15:22:07.372 +10:00 [DBG] Removing outdated records from the 'Job' table...
+2024-09-26 15:22:07.467 +10:00 [DBG] Removing outdated records from the 'List' table...
+2024-09-26 15:22:07.541 +10:00 [DBG] Removing outdated records from the 'Set' table...
+2024-09-26 15:22:07.684 +10:00 [DBG] Removing outdated records from the 'Hash' table...
+2024-09-26 15:22:08.145 +10:00 [DBG] 1 recurring job(s) processed by scheduler.
+2024-09-26 15:22:08.465 +10:00 [INF] Starting asset price update.
+2024-09-26 15:22:08.820 +10:00 [INF] Asset prices updated successfully.
+2024-09-26 15:22:13.434 +10:00 [INF] Processing request with Correlation ID: ["dfc3f235-7266-410f-9116-273107fae964"]
+2024-09-26 15:22:37.313 +10:00 [DBG] Server aulp220304:29836:1e0bfb99 heartbeat successfully sent
+2024-09-26 15:22:57.628 +10:00 [INF] Processing request with Correlation ID: ["6db77c30-eaaa-4dea-bea5-6bbeacbff68e"]
+2024-09-26 15:23:07.376 +10:00 [DBG] Server aulp220304:29836:1e0bfb99 heartbeat successfully sent
+2024-09-26 15:23:10.836 +10:00 [INF] Processing request with Correlation ID: ["80992ea6-d043-4d57-878c-9cd991a99238"]
+2024-09-26 15:23:37.440 +10:00 [DBG] Server aulp220304:29836:1e0bfb99 heartbeat successfully sent
+2024-09-26 15:24:07.477 +10:00 [DBG] Server aulp220304:29836:1e0bfb99 heartbeat successfully sent
+2024-09-26 15:24:18.550 +10:00 [INF] Processing request with Correlation ID: ["a6ad3f98-74b4-444d-8d63-80d53663f1f3"]
+2024-09-26 15:24:27.311 +10:00 [INF] Processing request with Correlation ID: ["2a24772d-2804-4541-b235-827f73751ef6"]
+2024-09-26 15:24:37.512 +10:00 [DBG] Server aulp220304:29836:1e0bfb99 heartbeat successfully sent
+2024-09-26 15:25:14.681 +10:00 [INF] Start installing Hangfire SQL objects...
+2024-09-26 15:25:15.230 +10:00 [INF] Hangfire SQL objects installed.
+2024-09-26 15:25:16.778 +10:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: silklaser.database.windows.net@daytest'
+2024-09-26 15:25:16.778 +10:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-09-26 15:25:16.779 +10:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-09-26 15:25:16.800 +10:00 [DBG] Execution loop BackgroundServerProcess:2127e1ca has started in 7.0787 ms
+2024-09-26 15:25:16.844 +10:00 [INF] Server aulp220304:28564:6ec40608 successfully announced in 40.4539 ms
+2024-09-26 15:25:16.849 +10:00 [DBG] Execution loop ServerHeartbeatProcess:f4b50f55 has started in 3.5988 ms
+2024-09-26 15:25:16.849 +10:00 [INF] Server aulp220304:28564:6ec40608 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-09-26 15:25:16.852 +10:00 [DBG] Execution loop ServerWatchdog:9f64c0b8 has started in 2.8584 ms
+2024-09-26 15:25:16.855 +10:00 [DBG] Execution loop ServerJobCancellationWatcher:95dd715e has started in 4.8385 ms
+2024-09-26 15:25:16.857 +10:00 [DBG] Execution loop ExpirationManager:05240749 has started in 2.7842 ms
+2024-09-26 15:25:16.864 +10:00 [DBG] Execution loop CountersAggregator:62d6c3cd has started in 8.524 ms
+2024-09-26 15:25:16.866 +10:00 [DBG] Execution loop SqlServerHeartbeatProcess:9908d363 has started in 8.37 ms
+2024-09-26 15:25:16.866 +10:00 [DBG] Aggregating records in 'Counter' table...
+2024-09-26 15:25:16.866 +10:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-09-26 15:25:16.869 +10:00 [DBG] Execution loop Worker:9f5ce330 has started in 5.3201 ms
+2024-09-26 15:25:16.872 +10:00 [DBG] Execution loop Worker:f7e00c4d has started in 7.6881 ms
+2024-09-26 15:25:16.874 +10:00 [DBG] Execution loop Worker:27938440 has started in 9.9024 ms
+2024-09-26 15:25:16.876 +10:00 [DBG] Execution loop Worker:d465edb6 has started in 12.3409 ms
+2024-09-26 15:25:16.879 +10:00 [DBG] Execution loop Worker:0d92bc34 has started in 14.9109 ms
+2024-09-26 15:25:16.881 +10:00 [DBG] Execution loop Worker:d5e6ca31 has started in 17.4979 ms
+2024-09-26 15:25:16.885 +10:00 [DBG] Execution loop Worker:aeb89b5c has started in 21.0722 ms
+2024-09-26 15:25:16.887 +10:00 [DBG] Execution loop Worker:e84bd3e9 has started in 22.8393 ms
+2024-09-26 15:25:16.890 +10:00 [DBG] Execution loop Worker:0526e391 has started in 25.6904 ms
+2024-09-26 15:25:16.893 +10:00 [DBG] Execution loop Worker:ffd175e6 has started in 29.4539 ms
+2024-09-26 15:25:16.897 +10:00 [DBG] Execution loop Worker:ae76ba61 has started in 32.6951 ms
+2024-09-26 15:25:16.900 +10:00 [DBG] Execution loop Worker:460f6818 has started in 35.661 ms
+2024-09-26 15:25:16.903 +10:00 [DBG] Execution loop Worker:eb7867bf has started in 39.2076 ms
+2024-09-26 15:25:16.906 +10:00 [DBG] Execution loop Worker:0c274cfd has started in 41.9901 ms
+2024-09-26 15:25:16.909 +10:00 [DBG] Execution loop Worker:9ebe3793 has started in 44.792 ms
+2024-09-26 15:25:16.911 +10:00 [DBG] Execution loop Worker:dc1abbc2 has started in 47.4367 ms
+2024-09-26 15:25:16.914 +10:00 [DBG] Execution loop Worker:7aa7379f has started in 50.2269 ms
+2024-09-26 15:25:16.917 +10:00 [DBG] Execution loop Worker:0a5ff76e has started in 52.9897 ms
+2024-09-26 15:25:16.921 +10:00 [DBG] Execution loop Worker:ebe29949 has started in 56.6162 ms
+2024-09-26 15:25:16.924 +10:00 [DBG] Execution loop Worker:69d2fe9d has started in 60.3352 ms
+2024-09-26 15:25:16.928 +10:00 [INF] Server aulp220304:28564:6ec40608 all the dispatchers started
+2024-09-26 15:25:16.928 +10:00 [DBG] Execution loop DelayedJobScheduler:a567daaf has started in 7.0472 ms
+2024-09-26 15:25:16.931 +10:00 [DBG] Execution loop RecurringJobScheduler:e25eb51f has started in 6.3383 ms
+2024-09-26 15:25:16.956 +10:00 [DBG] Removing outdated records from the 'Job' table...
+2024-09-26 15:25:17.045 +10:00 [DBG] Removing outdated records from the 'List' table...
+2024-09-26 15:25:17.114 +10:00 [DBG] Removing outdated records from the 'Set' table...
+2024-09-26 15:25:17.268 +10:00 [DBG] Removing outdated records from the 'Hash' table...
+2024-09-26 15:25:24.302 +10:00 [INF] Processing request with Correlation ID: ["be9296a5-5c4e-41a4-b978-81f1fd397c5e"]
+2024-09-26 15:25:31.216 +10:00 [INF] Processing request with Correlation ID: ["4f33a080-6ba8-48ac-a574-58f6c4231273"]
+2024-09-26 15:25:38.648 +10:00 [INF] Processing request with Correlation ID: ["4b9f4588-45fd-41c2-85e9-4939c043048b"]
+2024-09-26 15:25:46.463 +10:00 [INF] Processing request with Correlation ID: ["8d0e1fea-6e2f-4609-95c6-be89d5a2e25f"]
+2024-09-26 15:25:46.888 +10:00 [DBG] Server aulp220304:28564:6ec40608 heartbeat successfully sent
+2024-09-26 16:03:28.945 +10:00 [INF] Start installing Hangfire SQL objects...
+2024-09-26 16:03:29.972 +10:00 [INF] Hangfire SQL objects installed.
+2024-09-26 16:03:32.194 +10:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: silklaser.database.windows.net@daytest'
+2024-09-26 16:03:32.194 +10:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-09-26 16:03:32.195 +10:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-09-26 16:03:32.212 +10:00 [DBG] Execution loop BackgroundServerProcess:b68c6d81 has started in 8.7202 ms
+2024-09-26 16:03:32.256 +10:00 [INF] Server aulp220304:36424:78927848 successfully announced in 31.6403 ms
+2024-09-26 16:03:32.265 +10:00 [DBG] Execution loop ServerHeartbeatProcess:cbc7ce24 has started in 8.651 ms
+2024-09-26 16:03:32.265 +10:00 [INF] Server aulp220304:36424:78927848 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-09-26 16:03:32.268 +10:00 [DBG] Execution loop ServerWatchdog:cd8ba1a5 has started in 2.8171 ms
+2024-09-26 16:03:32.271 +10:00 [DBG] Execution loop ServerJobCancellationWatcher:a4a49150 has started in 4.5244 ms
+2024-09-26 16:03:32.273 +10:00 [DBG] Execution loop ExpirationManager:961f00b0 has started in 4.0091 ms
+2024-09-26 16:03:32.276 +10:00 [DBG] Execution loop CountersAggregator:38c34104 has started in 5.0681 ms
+2024-09-26 16:03:32.277 +10:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-09-26 16:03:32.277 +10:00 [DBG] Aggregating records in 'Counter' table...
+2024-09-26 16:03:32.280 +10:00 [DBG] Execution loop SqlServerHeartbeatProcess:5bd742b1 has started in 6.6341 ms
+2024-09-26 16:03:32.283 +10:00 [DBG] Execution loop Worker:6888066a has started in 4.9414 ms
+2024-09-26 16:03:32.285 +10:00 [DBG] Execution loop Worker:4832c4bf has started in 7.4596 ms
+2024-09-26 16:03:32.287 +10:00 [DBG] Execution loop Worker:aa96b822 has started in 9.6543 ms
+2024-09-26 16:03:32.290 +10:00 [DBG] Execution loop Worker:ba875fd7 has started in 11.939 ms
+2024-09-26 16:03:32.292 +10:00 [DBG] Execution loop Worker:43dcbf6b has started in 14.5826 ms
+2024-09-26 16:03:32.296 +10:00 [DBG] Execution loop Worker:45c6711e has started in 17.7475 ms
+2024-09-26 16:03:32.299 +10:00 [DBG] Execution loop Worker:efd61735 has started in 21.3556 ms
+2024-09-26 16:03:32.299 +10:00 [INF] 2 servers were removed due to timeout
+2024-09-26 16:03:32.303 +10:00 [DBG] Execution loop Worker:eb400245 has started in 24.3379 ms
+2024-09-26 16:03:32.304 +10:00 [DBG] Execution loop Worker:167190df has started in 26.6743 ms
+2024-09-26 16:03:32.307 +10:00 [DBG] Execution loop Worker:5e5086d7 has started in 29.4616 ms
+2024-09-26 16:03:32.309 +10:00 [DBG] Execution loop Worker:aad2b3d0 has started in 31.5262 ms
+2024-09-26 16:03:32.312 +10:00 [DBG] Execution loop Worker:1ec5ef0c has started in 33.9586 ms
+2024-09-26 16:03:32.314 +10:00 [DBG] Execution loop Worker:bb6b9780 has started in 36.158 ms
+2024-09-26 16:03:32.316 +10:00 [DBG] Execution loop Worker:5882ea6a has started in 38.3781 ms
+2024-09-26 16:03:32.318 +10:00 [DBG] Execution loop Worker:cf756578 has started in 40.6079 ms
+2024-09-26 16:03:32.321 +10:00 [DBG] Execution loop Worker:43f5910f has started in 42.9837 ms
+2024-09-26 16:03:32.323 +10:00 [DBG] Execution loop Worker:7bf516ff has started in 45.2137 ms
+2024-09-26 16:03:32.356 +10:00 [DBG] Execution loop Worker:83659d2c has started in 78.3873 ms
+2024-09-26 16:03:32.356 +10:00 [DBG] Execution loop Worker:f64ecb99 has started in 78.5211 ms
+2024-09-26 16:03:32.356 +10:00 [DBG] Execution loop Worker:711fc5aa has started in 78.3873 ms
+2024-09-26 16:03:32.361 +10:00 [DBG] Execution loop DelayedJobScheduler:0883c6e9 has started in 5.2472 ms
+2024-09-26 16:03:32.361 +10:00 [INF] Server aulp220304:36424:78927848 all the dispatchers started
+2024-09-26 16:03:32.364 +10:00 [DBG] Execution loop RecurringJobScheduler:78c13cb7 has started in 7.2998 ms
+2024-09-26 16:03:32.394 +10:00 [DBG] Removing outdated records from the 'Job' table...
+2024-09-26 16:03:32.963 +10:00 [DBG] Removing outdated records from the 'List' table...
+2024-09-26 16:03:33.041 +10:00 [DBG] Removing outdated records from the 'Set' table...
+2024-09-26 16:03:33.105 +10:00 [DBG] Removing outdated records from the 'Hash' table...
+2024-09-26 16:03:33.677 +10:00 [DBG] 1 recurring job(s) processed by scheduler.
+2024-09-26 16:03:33.991 +10:00 [INF] Starting asset price update.
+2024-09-26 16:03:34.422 +10:00 [INF] Asset prices updated successfully.
+2024-09-26 16:04:02.310 +10:00 [DBG] Server aulp220304:36424:78927848 heartbeat successfully sent
+2024-09-26 16:04:27.570 +10:00 [INF] Processing request with Correlation ID: ["cf021490-7e0f-493d-992c-dd7bb93ccb41"]
+2024-09-26 16:04:32.336 +10:00 [DBG] Server aulp220304:36424:78927848 heartbeat successfully sent
+2024-09-26 16:04:49.326 +10:00 [INF] Start installing Hangfire SQL objects...
+2024-09-26 16:04:49.961 +10:00 [INF] Hangfire SQL objects installed.
+2024-09-26 16:04:51.313 +10:00 [INF] Starting Hangfire Server using job storage: 'SQL Server: silklaser.database.windows.net@daytest'
+2024-09-26 16:04:51.313 +10:00 [INF] Using the following options for SQL Server job storage: Queue poll interval: 00:00:00.
+2024-09-26 16:04:51.313 +10:00 [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2024-09-26 16:04:51.336 +10:00 [DBG] Execution loop BackgroundServerProcess:3355f3d2 has started in 7.2189 ms
+2024-09-26 16:04:51.371 +10:00 [INF] Server aulp220304:14400:855e8170 successfully announced in 31.912 ms
+2024-09-26 16:04:51.383 +10:00 [DBG] Execution loop ServerHeartbeatProcess:ea79ecde has started in 10.2091 ms
+2024-09-26 16:04:51.383 +10:00 [INF] Server aulp220304:14400:855e8170 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2024-09-26 16:04:51.386 +10:00 [DBG] Execution loop ServerWatchdog:1104d0d2 has started in 2.8343 ms
+2024-09-26 16:04:51.389 +10:00 [DBG] Execution loop ServerJobCancellationWatcher:7ab7ea65 has started in 5.0632 ms
+2024-09-26 16:04:51.392 +10:00 [DBG] Execution loop ExpirationManager:1b40bdde has started in 4.594 ms
+2024-09-26 16:04:51.394 +10:00 [DBG] Execution loop CountersAggregator:8ae809c1 has started in 4.8071 ms
+2024-09-26 16:04:51.398 +10:00 [DBG] Execution loop SqlServerHeartbeatProcess:523db4a6 has started in 5.8389 ms
+2024-09-26 16:04:51.399 +10:00 [DBG] Aggregating records in 'Counter' table...
+2024-09-26 16:04:51.399 +10:00 [DBG] Removing outdated records from the 'AggregatedCounter' table...
+2024-09-26 16:04:51.404 +10:00 [DBG] Execution loop Worker:4c7055e4 has started in 9.9258 ms
+2024-09-26 16:04:51.407 +10:00 [DBG] Execution loop Worker:17ceb803 has started in 13.0118 ms
+2024-09-26 16:04:51.410 +10:00 [DBG] Execution loop Worker:ff8d469d has started in 15.5832 ms
+2024-09-26 16:04:51.412 +10:00 [DBG] Execution loop Worker:a3ca9bd3 has started in 18.0916 ms
+2024-09-26 16:04:51.415 +10:00 [DBG] Execution loop Worker:eb59b12c has started in 20.9858 ms
+2024-09-26 16:04:51.418 +10:00 [DBG] Execution loop Worker:171a0ee3 has started in 23.6702 ms
+2024-09-26 16:04:51.421 +10:00 [DBG] Execution loop Worker:2eecfe1b has started in 26.7354 ms
+2024-09-26 16:04:51.423 +10:00 [DBG] Execution loop Worker:b2af4d73 has started in 29.1939 ms
+2024-09-26 16:04:51.427 +10:00 [DBG] Execution loop Worker:5b03fce7 has started in 32.4957 ms
+2024-09-26 16:04:51.428 +10:00 [DBG] Execution loop Worker:ae9f1a09 has started in 34.0437 ms
+2024-09-26 16:04:51.431 +10:00 [DBG] Execution loop Worker:95172dcc has started in 36.4991 ms
+2024-09-26 16:04:51.434 +10:00 [DBG] Execution loop Worker:df831088 has started in 39.8642 ms
+2024-09-26 16:04:51.437 +10:00 [DBG] Execution loop Worker:8158faeb has started in 42.6004 ms
+2024-09-26 16:04:51.439 +10:00 [DBG] Execution loop Worker:2c341b87 has started in 45.176 ms
+2024-09-26 16:04:51.442 +10:00 [DBG] Execution loop Worker:a5e5b7e0 has started in 47.6109 ms
+2024-09-26 16:04:51.444 +10:00 [DBG] Execution loop Worker:f930a7e2 has started in 50.0922 ms
+2024-09-26 16:04:51.447 +10:00 [DBG] Execution loop Worker:6744ecef has started in 52.5553 ms
+2024-09-26 16:04:51.450 +10:00 [DBG] Execution loop Worker:14fe7673 has started in 55.3176 ms
+2024-09-26 16:04:51.452 +10:00 [DBG] Execution loop Worker:14ff0ea0 has started in 57.9339 ms
+2024-09-26 16:04:51.455 +10:00 [DBG] Execution loop Worker:fceee4d4 has started in 60.5823 ms
+2024-09-26 16:04:51.457 +10:00 [INF] Server aulp220304:14400:855e8170 all the dispatchers started
+2024-09-26 16:04:51.457 +10:00 [DBG] Execution loop DelayedJobScheduler:0a8fbe95 has started in 5.199 ms
+2024-09-26 16:04:51.460 +10:00 [DBG] Execution loop RecurringJobScheduler:63ffcc87 has started in 5.0533 ms
+2024-09-26 16:04:51.482 +10:00 [DBG] Removing outdated records from the 'Job' table...
+2024-09-26 16:04:51.568 +10:00 [DBG] Removing outdated records from the 'List' table...
+2024-09-26 16:04:51.650 +10:00 [DBG] Removing outdated records from the 'Set' table...
+2024-09-26 16:04:51.781 +10:00 [DBG] Removing outdated records from the 'Hash' table...
+2024-09-26 16:04:57.157 +10:00 [INF] Processing request with Correlation ID: ["83287ab1-bc1d-4148-bc8c-517d18502e8e"]
+2024-09-26 16:05:21.423 +10:00 [DBG] Server aulp220304:14400:855e8170 heartbeat successfully sent
+2024-09-26 16:05:25.134 +10:00 [INF] Processing request with Correlation ID: ["64197d2a-b3c6-4da7-a3f9-db509b0f4929"]
+2024-09-26 16:05:47.478 +10:00 [INF] Processing request with Correlation ID: ["bf5d28a1-c665-4a00-9039-e69edc688fa9"]
+2024-09-26 16:05:51.454 +10:00 [DBG] Server aulp220304:14400:855e8170 heartbeat successfully sent
+2024-09-26 16:06:21.489 +10:00 [DBG] Server aulp220304:14400:855e8170 heartbeat successfully sent
+2024-09-26 16:06:51.514 +10:00 [DBG] Server aulp220304:14400:855e8170 heartbeat successfully sent
+2024-09-26 16:54:54.386 +10:00 [ERR] Failed executing DbCommand (60,048ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [day_test];
